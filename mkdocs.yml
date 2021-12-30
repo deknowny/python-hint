@@ -34,6 +34,14 @@ extra_css:
   - stylesheets/slate.css
 
 extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Russia
+      link: /ru/
+      lang: ru
+
   version:
     provider: mike
     default: latest
