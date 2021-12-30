@@ -1,0 +1,43 @@
+site_name: Python Hint
+site_description: Guide about Python development common cases
+repo_url: https://github.com/deknowny/python-hint
+remote_branch: main
+
+# Site's content
+nav:
+  - Home: index.md
+
+# Theme preference. Use `mkdocs-material`
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: brown
+      accent: amber
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: amber
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+  font:
+    text: Ubuntu
+    code: Monaco
+  features:
+    - header.autohide
+
+
+extra_css:
+  - stylesheets/slate.css
+
+extra:
+  version:
+    provider: mike
+    default: latest
+
+# Material extensions
+markdown_extensions:
+  - admonition
