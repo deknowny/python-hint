@@ -19,5 +19,5 @@ jobs:
           git config --local user.name ci-bot
           git config --local user.email ci-bot@example.com
         name: Setting up git for deployer
-      - run: python -m mkdocs gh-pages -b gh-pages --force
+      - run: python -m mkdocs gh-deploy -b gh-pages --force
         name: Build docs
