@@ -36,10 +36,10 @@ extra_css:
 extra:
   alternate:
     - name: English
-      link: /en/
+      link: /python-hint/en/
       lang: en
     - name: Russia
-      link: /ru/
+      link: /python-hint/ru/
       lang: ru
 
   version:
