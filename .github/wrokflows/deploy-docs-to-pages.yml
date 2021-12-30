@@ -18,7 +18,6 @@ jobs:
       - run: |
           git config --local user.name ci-bot
           git config --local user.email ci-bot@example.com
-          git fetch origin gh-pages --depth=1
         name: Setting up git for deployer
-      - run: python -m mkdocs gh-deploy -b gh-pages
+      - run: python -m mkdocs gh-pages -b gh-pages --force
         name: Build docs
